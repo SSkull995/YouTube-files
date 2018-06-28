@@ -5,8 +5,8 @@ var uuid = require('../').uuid;
 var mqtt = require('mqtt');
 
 var MQTT_IP = 'localhost'; //change this if your MQTT broker is different
-var MQTT_TOPIC = 'SecondaryBedroomMotionSensor'; //MQTT topic that was set on the Sonoff firmware
-var sensorName = 'Secondary Bedroom Motion Sensor';
+var MQTT_TOPIC = 'EntranceMotionSensor'; //MQTT topic that was set on the Sonoff firmware
+var sensorName = 'Entrance Motion Sensor';
 
 var options = {
   port: 1883,
